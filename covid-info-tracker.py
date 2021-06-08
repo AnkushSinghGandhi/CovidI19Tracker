@@ -7,9 +7,9 @@ pygame.init()
 covid = Covid()
 
 # data for the world
-ta = f"Total active cases in world: {covid.get_total_active_cases()}"
-tr = f"Total reccovided cases in world: {covid.get_total_recovered()}"
-td = f"Total deaths in world: {covid.get_total_deaths()}"
+ta = f"Total active cases in the world: {covid.get_total_active_cases()}"
+tr = f"Total recovered cases in the world: {covid.get_total_recovered()}"
+td = f"Total deaths in the world: {covid.get_total_deaths()}"
 
 # load background
 background = pygame.image.load('covid.jpg')
@@ -17,7 +17,7 @@ background = pygame.image.load('covid.jpg')
 # taking input for country name 
 # getting data according to country name
 # data will be stored as a dictionary
-country = input("Enter your country.")
+country = input("Enter your country name : ")
 cases = covid.get_status_by_country_name(country)
 
 # setting font and font size

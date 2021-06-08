@@ -23,12 +23,21 @@
   </a>
 </p>
 
+# **Here is the Covid🦠 Information Tracker created with some Python modules.**
 
-0) install pygame and covid module using pip installer.
+## Steps for running this :-
 
-1) program 1st asks the country who's info. about covid 19 cases you want to know.
+* Installing important modules/libraries.
+  * pip install pygame
+    (Here pygame is used for GUI.)
+  * pip install covid
+    (Here covid module is used for fetch data.)
+  
+* How to use it.
+  * The program 1st asks for the country name who's information about covid-19 cases you want to know.
 
-2) i used pygame for gui and covid module for data.
+  * Then it gives you the output of the data in GUI.
+
 
 
 #
